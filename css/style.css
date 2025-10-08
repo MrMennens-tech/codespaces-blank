@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial Rounded MT Bold', Arial, sans-serif;
+    background: #f6f8fa;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #e0f7fa;
+    padding: 1rem;
+}
+header h1, header h2 {
+    margin: 0;
+    font-size: 2rem;
+}
+button {
+    background: none;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    min-width: 60px;
+    min-height: 60px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+}
+nav a {
+    font-size: 1.5rem;
+    color: #00796b;
+    text-decoration: none;
+    background: #b2dfdb;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    display: inline-block;
+    min-width: 120px;
+    text-align: center;
+}
+nav a:hover, nav a:focus {
+    outline: 4px solid #ffd600;
+    background: #4dd0e1;
+}
+#game-area {
+    margin: 2rem auto;
+    max-width: 900px;
+    min-height: 400px;
+}

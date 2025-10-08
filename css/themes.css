@@ -1,0 +1,8 @@
+/* Thema-kleuren en achtergrond per thema */
+body.theme-zee {
+    background: url('../assets/themes/zee/background.jpg') center/cover no-repeat;
+}
+body.theme-winter {
+    background: url('../assets/themes/winter/background.jpg') center/cover no-repeat;
+}
+/* Voeg meer thema's toe indien nodig */

@@ -1,0 +1,9 @@
+# Systeem-specifieke bestanden
+.DS_Store
+Thumbs.db
+# IDE/editor mappen
+.vscode/
+.idea/
+# Build-outputs of packages (voor toekomstig gebruik)
+/node_modules
+/dist
